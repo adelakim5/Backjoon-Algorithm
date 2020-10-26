@@ -52,7 +52,7 @@ function solution(check) {
     for (let i = x; i < x + 3; i++) {
       for (let j = y; j < y + 3; j++) {
         check[i][j] = check[i][j] === true ? false : true;
-        if (x === n - 3 && y === m - 3 && check[i][j]) return -1;
+        if (x === n - 3 || (y === m - 3 && check[i][j])) return -1;
       }
     }
     return check;

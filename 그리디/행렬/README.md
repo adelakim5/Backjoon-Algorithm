@@ -21,4 +21,5 @@
    이땐 각 A, B 행렬이 같은지 다른지 확인한 후 값을 출력한다. 
 
 * 참조한 블로그 - [[백준(backjoon) 1080] 행렬](https://mizzo-dev.tistory.com/entry/baekjoon1080)
+* 자세한 정리는 ... [[코딩테스트] 백준 - 행렬(1080)](https://blog.naver.com/diddnjs02/222127025689)
 
