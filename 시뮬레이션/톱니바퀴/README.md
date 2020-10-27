@@ -14,7 +14,7 @@
    - ※ 이때, 회전된 톱니바퀴때문에 그 옆에있는 톱니바퀴도 회전되는 것은 아닌지 확인해주어야 한다. 
    ![gear](https://postfiles.pstatic.net/MjAyMDEwMjdfOTEg/MDAxNjAzNzg1MjI4Mjkw.IohqFGLrC9CJ7rDci0fAPd2Zrch262ixHam20FM9Y3Eg.cGFMJRfu8caTeLo800G-gM9_O0BgFdzfbk2hlzX2Ircg.PNG.diddnjs02/image.png?type=w773)
 
-   - 회전해 줄때는 **반드시 가장 마지막 바깥에 있는 톱니바퀴를 먼저 회전 한 후** 차례로 회전시킨다. 
+   - 회전해 줄때는 **반드시 회전에 영향을 받는 가장 바깥에 있는 톱니바퀴를 먼저 회전 한 후** 차례로 회전시킨다. 
      - 각 톱니바퀴가 (회전하기 전) "현재상태"에서 서로 극이 같은지/다른지 비교해야 하기 때문이다. 
      - "현재" 서로 극이 다르면 회전하고, 같으면 회전하지 않는다. 
 
