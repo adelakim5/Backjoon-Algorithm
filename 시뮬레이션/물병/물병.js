@@ -8,11 +8,6 @@ const [n, k] = fs
   .split(" ")
   .map((e) => +e);
 
-if (n <= k) {
-  console.log(-1);
-  return;
-}
-
 function getCount(n) {
   let cnt = 0;
   while (n > 0) {
