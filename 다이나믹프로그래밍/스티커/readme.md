@@ -11,8 +11,8 @@
      - Value 1은 1번째 행에 위치한 값이다.
      - Value 2는 2번째 행에 위치한 값이다. 
 2. 각 열마다 최댓값을 계산한다. 
-   - 위에서 만든 dp 배열에 2번째 열을 넣어보자.
-    ![image](https://user-images.githubusercontent.com/49264795/100713505-bca80a00-33f7-11eb-9d6f-f497a74826f2.png) 
+   - 위에서 만든 dp 배열에 2번째 열을 넣어보자. 
+    ![image](https://user-images.githubusercontent.com/49264795/100713505-bca80a00-33f7-11eb-9d6f-f497a74826f2.png)
    - 30은 다음과 같이 계산될 수 있다.  
     ![image](https://user-images.githubusercontent.com/49264795/100713797-304a1700-33f8-11eb-97a2-b2397bfee53d.png)
      - Max + 30
