@@ -24,6 +24,7 @@
     ![image](https://user-images.githubusercontent.com/49264795/100714124-b1a1a980-33f8-11eb-9b28-69fdbff08639.png) 
 3. Max를 갱신한다. 
    - 10과 20중 더 큰 값을 Max로 둔다. 
+   
    ![image](https://user-images.githubusercontent.com/49264795/100714268-e281de80-33f8-11eb-9cfc-d44467a1c255.png) 
    - 즉, 현재 계산하는 **이전 이전 열의 최댓값**이 Max가 되는 것이다. 
    - 다음 숫자들에 대하여 위 과정을 반복한다. 
