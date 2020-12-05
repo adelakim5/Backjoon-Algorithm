@@ -12,14 +12,11 @@ let count = 0;
 
 while (num > 0) {
   const arrN = n.split("");
-  //   console.log(`arrN: [${arrN}]`);
   if (check(arrN)) {
     count++;
-    // console.log(`check is true, n: ${n}`);
   }
   num--;
   n = num.toString();
-  //   console.log(`num: ${num}, n: ${n}`);
 }
 console.log(count);
 
