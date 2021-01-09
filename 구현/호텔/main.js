@@ -10,7 +10,7 @@ dp[0] = 0;
 for (let [cost, customN] of customers) {
   if (dp[customN] > cost) dp[customN] = cost;
   for (let i = 1; i <= c; i++) {
-    dp[i] = i < customN ? Math.min(dp[i], cost) : Math.min(dp[i], dp[customN] + dp[i - customN]);
+    dp[i] = i <= customN ? Math.min(dp[i], cost) : Math.min(dp[i], dp[customN] + dp[i - customN]);
   }
 }
 
